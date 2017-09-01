@@ -4,7 +4,7 @@ import logging
 
 class BlogSpider(scrapy.Spider):
     name = 'blogspider'
-    start_urls = ['http://app.wrh.net.br/site/lmurray/vagas']
+    start_urls = ['https://google.com.br']
 
     def start_requests(self):
         for url in self.start_urls:
